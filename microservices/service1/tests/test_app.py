@@ -1,5 +1,5 @@
 import pytest
-from app import app
+from microservices.service1.app.py import app
 
 
 @pytest.fixture
