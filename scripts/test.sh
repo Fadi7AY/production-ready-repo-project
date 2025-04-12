@@ -1,5 +1,6 @@
 echo "Running tests"
 
+cd "$(dirname "$0")/.." || exit 1
 export PYTHONPATH=$(pwd)y
 
 pytest microservices/service1/tests
