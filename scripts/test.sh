@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Running tests"
 
 cd "$(dirname "$0")/.." || exit 1
