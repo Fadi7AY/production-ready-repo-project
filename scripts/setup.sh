@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Installing dependencies & set up the appdependencies & set up the app..."
 
 python3 -m venv .venv
